@@ -42,6 +42,8 @@
 
 ## Introduction
 
+
+
 Community fridges are fully stocked, volunteer-run refrigerators that are open to the general public. Anyone can take what they need, no questions asked! Community fridges have been popping up all over the US and have become a way for communities to battle food insecurity due to homelessness, unemployment, and stalled stimulus checks.
 <br> Did you know there are over 14 community fridges in Philadelphia? Part of the challenge of supporting a community fridge is knowing what is most needed in advance of dropping off provisions. Fridge For All aims to tackle this unique issue by creating an interactive database where users can see what's most urgent ahead of time, and plan accordingly.
 <br>Users can add what they drop off to increase the total quantity for other users to see, while also being able to subtract from the quantity if they take anything home. In this way, we hope to encourage people to engage with their community more while reducing hunger and food waste.
@@ -65,10 +67,22 @@ npm start
 Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
 ### Screen Shots
+<br>
+
+Fridge For All Landing Page
+!["The main landing page for Fridge For All"](./client/public/imgs/landing.png)
+
 
 ## Gif
 
-![“"]()
+Demonstrating app registration/login functionality
+![“A short video showing the ability to create a user account"](./client/public/imgs/register.gif)
+
+Demonstrating app inventory counting, sorting and delete functionality
+![“A short video showing new items being added to the fridge, items being increased and decreased in number, and item search"](./client/public/imgs/inventory.gif)
+
+Demonstrating map function, and "About" section.
+![“A short video showing the location page for fridges with pin drops at their locations, as well as the page with general information about community fridges in Philadelphia"](./client/public/imgs/mapabout.gif)
 
 ## Technologies
 
@@ -87,9 +101,9 @@ Your app should now be running on <http://localhost:3000>. The Express server sh
 
 * Mapquest
 
-* "Authentication Here"
+* Axios
 
-* React-Bootstap
+* React-Bootstrap
 
 * Mongo AtlasDB
 
@@ -127,7 +141,6 @@ Some of the ideas that we would like to implement are:
 
 - Creating the ability for the app to scan a QR code on each fridge to bring users quickly to that specific fridge's database.
 
--
 
 ## Credits
 
