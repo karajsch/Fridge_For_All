@@ -38,11 +38,9 @@
 
 ## Links
 
-- [Deployed Link](https://fridge-for-all-philly.herokuapp.com/)
+- [Deployed Link](https://ffa-ks.herokuapp.com/)
 
 ## Introduction
-
-
 
 Community fridges are fully stocked, volunteer-run refrigerators that are open to the general public. Anyone can take what they need, no questions asked! Community fridges have been popping up all over the US and have become a way for communities to battle food insecurity due to homelessness, unemployment, and stalled stimulus checks.
 <br> Did you know there are over 14 community fridges in Philadelphia? Part of the challenge of supporting a community fridge is knowing what is most needed in advance of dropping off provisions. Fridge For All aims to tackle this unique issue by creating an interactive database where users can see what's most urgent ahead of time, and plan accordingly.
@@ -67,11 +65,11 @@ npm start
 Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
 ### Screen Shots
+
 <br>
 
 Fridge For All Landing Page
 !["The main landing page for Fridge For All"](./client/public/imgs/landing.png)
-
 
 ## Gif
 
@@ -140,7 +138,6 @@ Some of the ideas that we would like to implement are:
 - Setting up the ability for users to opt-in for email updates from fridge organizers.
 
 - Creating the ability for the app to scan a QR code on each fridge to bring users quickly to that specific fridge's database.
-
 
 ## Credits
 
